@@ -24,6 +24,9 @@ main {
   margin: 20px;
 }
 
+.content h1{ font-size: 40px;}
+.content p {font: 18px;}
+
 li {
   padding: 5px;
   margin-bottom: 3px;
@@ -48,7 +51,7 @@ label {
 }
 
 input {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
   padding: 20px;
   border-radius: 5px;
@@ -62,7 +65,7 @@ input {
 }
 
 .btn-1 {
-  padding: 15px;
+  padding: 20px;
   border-radius: 5px;
   width: 100%;
   margin: 0 auto;
