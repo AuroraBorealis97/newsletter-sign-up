@@ -9,19 +9,29 @@ body {
   display: none;
 }
 
+main {
+  width: 100vw;
+
+  margin: 0;
+  padding: 0;
+}
+
+.display-img {
+  width: 100vw;
+}
 
 .content {
   margin: 20px;
 }
 
-li{
-    padding: 5px;
-    margin-bottom: 3px;
-    list-style-image: url('assets/images/icon-list.svg');
+li {
+  padding: 5px;
+  margin-bottom: 3px;
+  list-style-image: url("assets/images/icon-list.svg");
 }
 
-ul{
-    margin-bottom: 30px;
+ul {
+  margin-bottom: 30px;
 }
 
 label {
@@ -31,11 +41,10 @@ label {
   font-weight: 700;
 }
 
-.input{
-    
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 input {
@@ -43,11 +52,10 @@ input {
   width: 100%;
   padding: 20px;
   border-radius: 5px;
-  border: .5px solid hsl(231, 7%, 60%);
+  border: 0.5px solid hsl(231, 7%, 60%);
 }
 
 .btn {
-  
   display: flex;
   align-items: center;
   margin-bottom: 40px;
@@ -65,42 +73,42 @@ input {
 }
 
 .flex h1 {
-    font-size: 45px;
+  font-size: 45px;
 }
 
-.btn-2{
-    padding: 15px;
-    border-radius: 5px;
-    width: 100%;
-    margin: 0 auto;
-    border: none;
-    background-color: hsl(234, 29%, 20%);
-    color: white;
-    font-weight: bold;
+.btn-2 {
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-weight: bold;
 }
 
 .flex {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content:space-between ;
-    padding: 20px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.success{
-    width:75px;
-    height: 75px;
-    margin-top: 10px;
+.success {
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
 }
 
 .item-1 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-.item-1 p{
-    line-height: 1.5;
-    font-size: 18px;
-    margin-top: 30px;
+.item-1 p {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-top: 30px;
 }
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
