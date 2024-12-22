@@ -53,7 +53,7 @@ label {
 input {
   margin-bottom: 20px;
   width: 100%;
-  padding: 20px;
+  padding: 25px;
   border-radius: 5px;
   border: 0.5px solid hsl(231, 7%, 60%);
 }
@@ -65,7 +65,8 @@ input {
 }
 
 .btn-1 {
-  padding: 20px;
+  padding: 30px;
+  font-size: 20px;
   border-radius: 5px;
   width: 100%;
   margin: 0 auto;
