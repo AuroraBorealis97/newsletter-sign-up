@@ -88,8 +88,8 @@ input {
 }
 
 .success{
-    width:100px;
-    height: 100px;
+    width:75px;
+    height: 75px;
     margin-top: 10px;
 }
 
@@ -98,6 +98,9 @@ input {
 }
 .item-1 p{
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 30px;
+}
+.bold{
+    font-weight: 700;
 }
