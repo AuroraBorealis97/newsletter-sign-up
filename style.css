@@ -84,7 +84,6 @@ input {
     height: 100vh;
     flex-direction: column;
     justify-content:space-between ;
-    border: 1px solid red;
     padding: 20px;
 }
 
