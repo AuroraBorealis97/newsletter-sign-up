@@ -58,7 +58,7 @@ input {
 .btn {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin: 20px 0;
 }
 
 .btn-1 {
