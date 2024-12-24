@@ -24,8 +24,12 @@ main {
   margin: 20px;
 }
 
-.content h1{ font-size: 45px;}
-.size {font-size: 20px;}
+.content h1 {
+  font-size: 45px;
+}
+.size {
+  font-size: 20px;
+}
 
 li {
   padding: 5px;
@@ -80,6 +84,10 @@ input {
   font-size: 45px;
 }
 
+.display-img-desktop{
+    display: none;
+}
+
 .btn-2 {
   padding: 15px;
   border-radius: 5px;
@@ -115,4 +123,84 @@ input {
 }
 .bold {
   font-weight: bold;
+}
+
+/*Media queries for desktop*/
+
+@media only screen and (min-width: 768px) {
+  main {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(234, 29%, 20%);
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    width: 55%;
+    height: 85%;
+  }
+
+  .box p,
+  .box li,
+  .btn-1 {
+    font-size: 12px;
+  }
+
+  li {
+    margin: 0;
+    padding: 3px;
+  }
+
+  .box h1 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .btn-1 {
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  label {
+    margin-top: 5px;
+  }
+
+  input {
+    padding: 15px;
+    margin-bottom: 0;
+  }
+  .pic {
+   
+    width: 45%;
+    height: 90%;
+   padding-top: 20px;
+  }
+  ul {
+    margin-bottom: 15px;
+  }
+.display-img-mobile{
+    display: none;
+}
+  .display-img-desktop {
+    height: 100%;
+    width:100%;
+    display: block;
+    
+
+  }
+
+  .content {
+    width: 40%;
+    margin: 20px auto;
+  
+  }
 }
