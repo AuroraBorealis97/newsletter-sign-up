@@ -127,7 +127,7 @@ input {
 
 /*Media queries for desktop*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   main {
     height: 100vh;
     width: 100vw;
