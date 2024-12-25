@@ -147,7 +147,7 @@ input {
     margin: 0 auto;
     background-color: white;
     border-radius: 20px;
-    width: 55%;
+    width: 60%;
     height: 85%;
   }
 
@@ -193,9 +193,9 @@ input {
 }
   .display-img-desktop {
     height: 100%;
-    width:95%;
+    width:100%;
     display: block;
-    padding-right: 5px;
+    
     
 
   }
