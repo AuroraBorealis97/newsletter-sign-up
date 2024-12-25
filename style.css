@@ -147,14 +147,20 @@ input {
     margin: 0 auto;
     background-color: white;
     border-radius: 20px;
-    width: 60%;
+    width: 65%;
     height: 85%;
   }
 
   .box p,
   .box li,
   .btn-1 {
-    font-size: 12px;
+    font-size: 15px;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
   }
 
   li {
@@ -163,7 +169,7 @@ input {
   }
 
   .box h1 {
-    font-size: 40px;
+    font-size: 45px;
     margin: 0;
     padding-top: 20px;
   }
@@ -195,14 +201,14 @@ input {
     height: 100%;
     width:100%;
     display: block;
-    
-    
 
   }
 
   .content {
-    width: 40%;
+    width: 45%;
     margin: 20px auto;
   
   }
+
+  
 }
