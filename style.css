@@ -193,8 +193,9 @@ input {
 }
   .display-img-desktop {
     height: 100%;
-    width:100%;
+    width:95%;
     display: block;
+    padding-right: 5px;
     
 
   }
